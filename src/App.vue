@@ -5,10 +5,9 @@
       <v-container>
         <v-row>
           <v-col>
+
             <Map></Map>
-            <v-banner>
-              Hello
-            </v-banner>
+
           </v-col>
         </v-row>
         <place-list :items="data"></place-list>
@@ -21,6 +20,7 @@
 import Header from "./components/Header";
 import Map from "./components/Map";
 import PlaceList from "./components/PlaceList";
+
 export default {
   name: 'App',
 
@@ -31,9 +31,9 @@ export default {
   },
 
   data: () => ({
-    data:[
-      {title:"Test",text:"TEST TEST TEST"},
-      {title:"Test2",text:"TEST2 TEST2 TEST2"},
+    data: [
+      {title: "Test", text: "TEST TEST TEST"},
+      {title: "Test2", text: "TEST2 TEST2 TEST2"},
     ]
   }),
 };
