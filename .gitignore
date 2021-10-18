@@ -21,3 +21,10 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Cordova (added by vue-cli-plugin-cordova-simple)
+platforms
+plugins
+www
+
+/src/App_copy.vue
